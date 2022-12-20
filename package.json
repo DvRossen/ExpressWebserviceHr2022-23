@@ -1,0 +1,23 @@
+{
+  "name": "nodeproject",
+  "version": "1.0.0",
+  "description": "This was made by Daan v. Rossen, if you're reading this you're either reading it from my page or someone copy-pasted this into their project like a dingus",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "prettier": "prettier . --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.1"
+  }
+}
